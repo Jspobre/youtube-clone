@@ -1,0 +1,36 @@
+
+
+.video-title{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    width: 300px;
+    line-height: 25px;
+    margin-bottom: 5px;
+
+}
+.views-date{
+    font-family: Roboto;
+    font-size: 10px;
+    color: rgb(92, 85, 85);
+    margin-top: 0px;
+    
+}
+.navbar{
+    background-color: rgb(226, 51, 51);
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+
+}
+.shop-now:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+
+
+
