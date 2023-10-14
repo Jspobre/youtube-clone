@@ -1,5 +1,9 @@
 body{
   margin: 0;
+  padding-top: 80px;
+  padding-left: 70px;
+  padding-right: 40px;
+  padding-bottom: 200px;
 }
 .thumbnail {
     width: 100%;
@@ -38,11 +42,22 @@ body{
   }
   .video-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 20px;
     row-gap: 40px;
+    background-color: rgb(247, 247, 247);
   }
   .middle-section{
     display: flex;
     justify-content: center;;
+  }
+  .thumbnail1 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .thumbnail1:hover{
+    cursor: pointer;
+
   }
