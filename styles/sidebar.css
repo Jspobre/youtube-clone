@@ -1,56 +1,53 @@
 .sidebar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    top: 55px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 72px;
-    /* padding-left: 1px; */
-    margin-top: 0px;
-    border-top-color: white;
-    border-top-width: 1px;
-    border-top-style: solid;
-    padding-top: 12px;
-  
-  }
-  .sidebar:hover{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 72px;
+  top: 55px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 72px;
+  margin-top: -2px;
+  background-color: white;
+  padding-top: 10px;
+  z-index: 200;
+}
+.sidebar-link:hover {
+  background-color: rgb(241, 240, 240);
+}
 
-  }
-
-  
-  .home-icon {
-    height: 25px;
-    padding-bottom: 5px;
-  }
-  .explore-icon {
-    height: 25px;
-    padding-bottom: 5px;
-  }
-  .subscriptions-icon {
-    height: 25px;
-    padding-bottom: 5px;
-  }
-  .originals-icon {
-    height: 25px;
-    padding-bottom: 5px;
-  }
-  .youtube-music-icon {
-    height: 25px;
-    padding-bottom: 5px;
-  }
-  .library-icon {
-    height: 25px;
-    padding-bottom: 5px;
-  }
-  .sidebar-link{
-    font-family: roboto;
-    display: flex;
-    flex-direction: column;
-    font-size: 10px;
-    margin-bottom: 40px;
-    cursor: pointer;
-    
-  }
+.home-icon {
+  height: 25px;
+  padding-bottom: 5px;
+}
+.explore-icon {
+  height: 25px;
+  padding-bottom: 5px;
+}
+.subscriptions-icon {
+  height: 25px;
+  padding-bottom: 5px;
+}
+.originals-icon {
+  height: 25px;
+  padding-bottom: 5px;
+}
+.youtube-music-icon {
+  height: 25px;
+  padding-bottom: 5px;
+}
+.library-icon {
+  height: 25px;
+  padding-bottom: 5px;
+}
+.sidebar-link {
+  font-family: roboto;
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  height: 74px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
