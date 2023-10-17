@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0;
   padding-top: 80px;
   padding-left: 70px;
@@ -6,58 +6,74 @@ body{
   padding-bottom: 200px;
 }
 .thumbnail {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  .video-title {
-    margin-top: 0px;
-    font-family: roboto;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-  }
-  .video-author {
-    font-family: roboto;
-    font-size: 12px;
-    color: rgb(105, 104, 104);
-  }
-  .video-stats {
-    font-family: roboto;
-    font-size: 12px;
-    color: rgb(105, 104, 104);
-    line-height: 1px;
-  }
-  .video-info-grid {
-    display: grid;
-    grid-template-columns: 50px 1fr;
-  }
-  .channel-picture {
-    vertical-align: top;
-    margin-right: 10px;
-  }
+  width: 100%;
+  margin-bottom: 10px;
+}
+.video-title {
+  margin-top: 0px;
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+.video-author {
+  font-family: roboto;
+  font-size: 12px;
+  color: rgb(105, 104, 104);
+}
+.video-stats {
+  font-family: roboto;
+  font-size: 12px;
+  color: rgb(105, 104, 104);
+  line-height: 1px;
+}
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+.channel-picture {
+  vertical-align: top;
+  margin-right: 10px;
+}
 
-  .profile-picture {
-    width: 100%;
-    border-radius: 50px;
-  }
-  .video-grid {
-    display: grid;
-    padding-left: 30px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 20px;
-    row-gap: 40px;
-    background-color: rgb(247, 247, 247);
-  }
-  .middle-section{
-    display: flex;
-    justify-content: center;;
-  }
-  .thumbnail1 {
-    width: 100%;
-    margin-bottom: 10px;
-  }
+.profile-picture {
+  width: 100%;
+  border-radius: 50px;
+}
+.video-grid {
+  display: grid;
+  padding-left: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+  background-color: rgb(247, 247, 247);
+}
+.middle-section {
+  display: flex;
+  justify-content: center;
+}
+.thumbnail1 {
+  width: 100%;
+  margin-bottom: 10px;
+}
 
-  .thumbnail1:hover{
-    cursor: pointer;
+.thumbnail1:hover {
+  cursor: pointer;
+}
 
-  }
+.thumbnail-row {
+  position: relative;
+}
+.video-time{
+  background-color: black;
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  font-family: roboto;
+  margin-right: 5px;
+  font-size: 12px;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 2px;
+}
